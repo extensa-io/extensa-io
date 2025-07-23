@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaLinkedin, FaGithub, FaHeart } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -21,32 +22,35 @@ export default function Home() {
           
           <p className="text-xl text-gray-700 mb-8">Kitchen - Fútbol - Software</p>
           
-          <div className="flex gap-6">
+          <div className="flex gap-8 items-center">
             <Link
               href="https://www.linkedin.com/in/nestordaza/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 transition-colors"
+              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
             >
-              LinkedIn
+              <FaLinkedin size={20} />
+              <span>LinkedIn</span>
             </Link>
             
             <Link
               href="https://github.com/extensa-io"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 transition-colors"
+              className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
             >
-              GitHub
+              <FaGithub size={20} />
+              <span>GitHub</span>
             </Link>
             
             <Link
               href="https://donate.doctorswithoutborders.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 transition-colors"
+              className="flex items-center gap-2 text-red-600 hover:text-red-800 transition-colors"
             >
-              Donate to Doctors Without Borders
+              <FaHeart size={18} />
+              <span>Donate to Doctors Without Borders</span>
             </Link>
           </div>
         </div>

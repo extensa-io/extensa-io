@@ -1,3 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+/* Additional custom styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure Tailwind utilities are available */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

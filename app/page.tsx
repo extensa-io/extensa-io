@@ -147,12 +147,12 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold mb-4 text-white">_id: The Unsung Hero of MongoDB</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Dive deep into MongoDB's primary key field and discover how this seemingly simple field 
+                Dive deep into MongoDB's primary key field and discover how this seemingly simple field
                 plays a crucial role in your database's performance and scalability.
               </p>
               <div className="mt-6 text-blue-300 font-semibold">Read on Medium →</div>
             </Link>
-            
+
             <Link
               href="https://medium.com/mongodb/how-to-align-your-data-model-with-your-application-needs-when-migrating-from-rdbms-to-mongodb-abde87f2d96f"
               target="_blank"
@@ -161,8 +161,22 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold mb-4 text-white">Migrating from RDBMS to MongoDB</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Learn how to align your data model with your application needs when making the transition 
+                Learn how to align your data model with your application needs when making the transition
                 from relational databases to MongoDB's flexible document model.
+              </p>
+              <div className="mt-6 text-blue-300 font-semibold">Read on Medium →</div>
+            </Link>
+
+            <Link
+              href="https://medium.com/mongodb/from-tables-to-mongodb-documents-a-journey-for-rdbms-professionals-6bff391b1854"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2 border border-white/20"
+            >
+              <h3 className="text-2xl font-bold mb-4 text-white">From Tables to MongoDB Documents: A Journey for RDBMS Professionals</h3>
+              <p className="text-gray-300 text-lg leading-relaxed">
+                A comprehensive guide for relational database professionals transitioning to MongoDB's document model,
+                covering key concepts and practical strategies for successful migration.
               </p>
               <div className="mt-6 text-blue-300 font-semibold">Read on Medium →</div>
             </Link>

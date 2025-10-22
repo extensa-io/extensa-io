@@ -70,7 +70,7 @@ export default function Home() {
                 Software Engineer & <span className="text-blue-600">Developer Advocate</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                I help programmers get the most out of MongoDB, turning complex database challenges into simple, practical solutions that make developers' lives easier.</p>
+                I'm a developer advocate and software engineer. I help developers get the most out of MongoDB, turning complex database challenges into simple, practical solutions that make their lives easier.</p>
              <p className="text-xl text-gray-600 mb-8">Often you'll find me in the kitchen or yelling at the TV during a fútbol match. Nothing like cooking and soccer to teach you patience, timing, improvisation and beauty.
              </p>
             </div>

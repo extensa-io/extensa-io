@@ -224,7 +224,7 @@ export default function Home() {
                 </Link>
                 
                 <a
-                  href="mailto:nestor@extensa.io"
+                  href={`mailto:${'nestor'}@${'extensa'}.io`}
                   className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
                 >
                   <FaEnvelope className="text-red-600 text-2xl" />
@@ -246,7 +246,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <h2 className="text-lg font-semibold">Néstor Daza</h2>
-              <p className="text-gray-400">Software Engineer & Developer Advocater</p>
+              <p className="text-gray-400">Software Engineer & Developer Advocate</p>
             </div>
             
             <div className="flex items-center gap-4">

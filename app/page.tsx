@@ -180,6 +180,20 @@ export default function Home() {
               </p>
               <div className="mt-6 text-blue-300 font-semibold">Read on Medium →</div>
             </Link>
+
+            <Link
+              href="https://medium.com/mongodb/what-is-data-modeling-in-mongodb-and-why-does-it-matter-875e9d9ed470"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2 border border-white/20"
+            >
+              <h3 className="text-2xl font-bold mb-4 text-white">What is Data Modeling in MongoDB and Why Does it Matter?</h3>
+              <p className="text-gray-300 text-lg leading-relaxed">
+                Discover how MongoDB's data modeling philosophy differs from traditional relational databases,
+                focusing on domain access patterns and optimizing for real-world application performance.
+              </p>
+              <div className="mt-6 text-blue-300 font-semibold">Read on Medium →</div>
+            </Link>
           </div>
         </div>
       </section>
